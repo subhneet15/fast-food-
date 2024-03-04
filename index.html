@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fast Food Online Store</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      nav {
+        background-color: #bb1c1c;
+        color: rgb(14, 8, 8);
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+      main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px;
+      }
+      .product {
+        background-color: #f2f2f2;
+        border: 1px solid #ddd;
+        padding: 20px;
+        width: 30%;
+        margin-bottom: 20px;
+      }
+      .product img {
+        width: 100%;
+        height: auto;
+      }
+      .product h3 {
+        margin-top: 0;
+      }
+      .product p {
+        margin-bottom: 0;
+      }
+      .product button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">Cart</a>
+      <a href="#">Checkout</a>
+    </nav>
+    <main>
+      <div class="product">
+        <img src="burger.jpg" alt="Burger">
+        <h3>Cheeseburger</h3>
+        <p>$5.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="fries.jpg" alt="Fries">
+        <h3>French Fries</h3>
+        <p>$2.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="soda.jpg" alt="Soda">
+        <h3>Soda</h3>
+        <p>$1.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="shake.jpg" alt="Shake">
+        <h3>Milkshake</h3>
+        <p>$3.99</p>
+        <button>Add to Cart</button>
+      </div>
+    </main>
+  </body>
+</html>
